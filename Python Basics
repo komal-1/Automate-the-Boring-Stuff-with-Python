@@ -1,0 +1,23 @@
+Expression: This is the most basic kind of programming instruction in the language.Expressions consists of values and operators and they can always evaluate down to a single value.That means we can use expressions anywhere in Python code that i could also use a value.
+A single value with no operators is also considered an expression, though it evaluates only to itself.
+
+We have Math Operators from Highest to Lowest Precedence
+Operator   Operation                             Example   Evaluates to…
+**        Exponent                               2 ** 3     8
+%         Modulus/remainder                      22 % 8     6
+//        Integer division/floored quotient      22 // 8    2
+/         Division                               22 / 8     2.75
+*         Multiplication                         3 * 5      15
+-         Subtraction                            5 - 2      3
++         Addition                               2 + 2      4
+
+Data Type : A datatype is a category of values,and every value belongs to exactly one data type.
+Common data types are in python: Integers -  -1,1,0
+                                 Floating-Point number- -1.25,1.25,0.0
+                                 Strings - 'Goblin'
+                                
+                                
+For creating a variable there are some rules :
+It can be only one word.
+It can use only letters, numbers, and the underscore ( _ ) character.
+It can’t begin with a number.
