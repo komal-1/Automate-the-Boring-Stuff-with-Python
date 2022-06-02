@@ -1,0 +1,21 @@
+1.The print() function displays the string value inside the parenthese on the screen.
+
+for example:
+print('Hello world!')
+print('What is your name?')
+
+it can also use this function to put a blank line on the screen; just call print() with
+nothing in between the parentheses.
+
+2.The input() function waits for the user to type some text on the keyboard and press Enter
+
+for example:
+myName = input()
+
+the input() function call as an expression that evaluates to whatever string the user typed in.
+
+3.We can pass the len() function a string value (or a variable containing a string), and the function evaluates to an integer value of the number of characters in that string.
+
+for example:
+print('The length of your name is:')
+print(len(myName))
