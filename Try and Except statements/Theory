@@ -1,0 +1,2 @@
+Errors can be handled with try and except statements.The code that could potentially have an error is put in a **try** clause.
+The program execution moves to the start of a following except clause if an error happens.
