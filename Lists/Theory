@@ -1,0 +1,13 @@
+Lists are mutable, meaning that their contents can change. Tuples and
+strings, although list-like in some respects, are immutable and cannot be
+changed. A variable that contains a tuple or string value can be overwritten
+with a new tuple or string value, but this is not the same thing as modifying
+the existing value in place—like, say, the append() or remove() methods do on
+lists.
+Variables do not store list values directly; they store references to lists.
+This is an important distinction when copying variables or passing lists as
+arguments in function calls. Because the value that is being copied is the
+list reference, be aware that any changes you make to the list might impact
+another variable in your program. You can use copy() or deepcopy() if you
+want to make changes to a list in one variable without modifying the origi-
+nal list.
