@@ -1,0 +1,22 @@
+1.What is [] ?
+
+Ans: The Empty list which contains no items.
+
+2.How would you assign the value 'hello' as the third value in a list stored
+in a variable named spam ? (Assume spam contains [2, 4, 6, 8, 10] .)
+
+Ans: spam[2] = 'hello'
+
+3.What does spam[int(int('3' * 2) / 11)] evaluate to?
+
+Ans: At first ('3' * 2) will be 33 and then int(33) convert it into an int value then it gets divided by 11 which leads to the result 3(int value already) and later converted into a int value.
+
+4.What does spam[-1] evaluate to?
+Ans: last item from the list or item in the reverse order from a list.
+
+5.What does spam[:2] evaluate to?
+Ans: spam = ['a','b', 'c', 'd'] (given)
+
+then spam[:2] = ['a','b']
+
+6.What does bacon.index('cat') evaluate to?
