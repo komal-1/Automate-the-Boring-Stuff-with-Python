@@ -1,0 +1,42 @@
+Expression : It consists of values and operators and they can always evaluate down to a single value.That means you can use expressions anywhere in python code that you could also use a value.
+A single value with no operators is also considered an expression, though it evaluates only to itself.
+
+Operators from highest to lowest precedence:
+
+Operator  Operation              Example     Evaluates to            
+---------------------------------------------------
+**        Exponent               2 ** 3        8
+%         Modulus/remainder      22 % 8        6
+//        Integer division /
+          floored quotient       22 // 8       2
+/         Division               22 / 8        2.75
+*         Multiplication         3*5           15
+-         Subtraction            5-2           3
++         Addition               2+2           4
+
+
+Precedence : The order of operation.
+The **(exponent) operator is evaluated first;the *(multiplication),/(division),//(integer division/floored quotient),and %(Modulus/remainder) operators are evaluated next,from left to right;and the +(plus) and -(minus) operators are evaluated last(also from left to right).
+We can use parentheses to override the usual precedence if it's needed.
+
+Data-Types: A category for values, and every value belongs to exactly one data type.
+
+1. Integer :- The integer(or int) data type indicates values that are whole numbers.
+Ex: 2
+2.Floating-Point Numbers : Numbers with a decimal point are called floating-point numbers(or floats).
+Ex: 2.2
+3.Strings or strs(pronounced "stirs") : it is surrounded by single quote('). ('') this is called empty or blank string , string with no characters in it.
+Ex: 'Hello world!'
+
+We use '+' operator to concatenate strings like : 'Alice' + 'Bob' -> 'AliceBob'
+we can't concatenate an integer to a string it will give error. For concatenating these we have to convert integer into a string using str() function.
+
+The * operator is used on one string value and one integer value, it becomes the string replication operator.
+Ex: 'Alice'*3 -> AliceAliceAlice
+
+The * operator can be used with only two numeric values (for multiplication) or one string value and one integer value
+
+Variable : It is like a box in the computer's memory where you can store a single value.If you want to use the result of an evaluated expression later in your program, you can save it inside a variable.
+Assignment Statements : We can store values in variables with an assignments statements.An assignment statement consists of a variable name ,an equal sign(called the assignment operator),
+
+
