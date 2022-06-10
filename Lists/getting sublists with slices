@@ -1,0 +1,78 @@
+just as an index can get a single value from a list, a slice can get several values from a list, in the form of a new list.
+Slice: A slice is typed between square brackets, like an index, but it has two integers separated by a colon.
+For example :
+spam[2] is a list with an index(one integer).
+spam[1:4] is a list with a slice(two integers).
+
+In a slice, the first integer is the index where the slice starts.The second integer is the index where the slice ends.
+A slice goes up to,but will not include,the value at the second index.
+A slice evaluates to a new list value.
+
+For example :
+spam = ['cat','bat','rat','mat']
+spam[0:4]
+['cat','bat','rat','mat']
+spam[1:3]
+['bat','rat']
+spam[0:-1]
+['cat','bat','rat']
+ 
+As a shortcut we can leave out one or both of the indexes on either side of the colon in the slice.Leaving out the first index is the same as using 0,or the beginning of the list.Leaving out the second index
+is the same as using the length of the new list,which will slice to the end of the list.
+
+For example:
+spam = ['cat','bat','rat','mat']
+spam[:2]
+['cat','bat']
+spam[1:]
+['bat','rat','mat']
+spam[:]
+['cat,'bat','rat','mat']
+
+Getting a list's length with len() :-
+
+The len() function will return the number of values that are in a list value passed to it,just like it count the number of characters in a string value.
+For example : 
+spam = ['cat','dog','moose']
+len(spam)
+3
+
+Changing Values in a list with indexes:
+
+spam =['cat','bat','rat','mat']
+spam[1] ='aardvark'
+spam
+['cat,'aardvark','rat','mat']
+spam[2] = spam[1]
+spam
+['cat',',aardvark',aardvark','mat']
+spam[-1] = 12345
+spam
+['cat',aardvark',aardvark',12345]
+
+List concatenation and List Replication:
+
+The + operator can combine two lists to create a new list value in the same way it combines two strings into a new string value.The * operator can also be used with a list and an integer value to replicate the list.
+For example :
+[1,2,3] + ['A','B','C']
+[1,2,3,'A','B','C']
+
+['X','Y','Z']*3
+['X','Y','Z','X','Y','Z','X','Y','Z']
+spam = [1,2,3]
+spam = spam + ['A','B','C']
+spam
+[1,2,3,'A',B','C']
+
+Removing Values from Lists with del Statements:
+The del statement will delete values at an index in a list.All of the values in the list after the deleted value will be moved up one index.
+For example : 
+spam = ['cat','bat','rat','mat']
+del spam[2]
+spam
+['cat','bat','mat']
+del spam[2]
+spam
+['cat','bat']
+
+The del statement can also be used 
